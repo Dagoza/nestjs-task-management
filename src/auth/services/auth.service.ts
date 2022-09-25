@@ -5,7 +5,7 @@ import {
   UnauthorizedException
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { PgCode } from 'src/shared/Enums/pg-code.enum';
+import { PgCode } from 'src/shared/enums/pg-code.enum';
 import { Repository } from 'typeorm';
 import { AuthCredentialsDto } from '../entities/auth-credentials.dto';
 import { User } from '../entities/user.entity';
